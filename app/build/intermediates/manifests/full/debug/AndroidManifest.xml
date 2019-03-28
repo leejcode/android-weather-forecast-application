@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lee.com.tianqidemo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    //申请网络访问权限
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  //申请网络定位权限
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+   //申请GPS定位权限
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+ //申请外置读写权限
+
+    Android:sharedUerId="android.uid.system;
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/timg"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="lee.com.tianqidemo.zhu"
+            android:label="@string/app_name"
+            android:logo="@color/colorAccent"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="lee.com.tianqidemo.sousuo"
+            android:label="@string/title_activity_sousuo"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+    </application>
+
+</manifest>
