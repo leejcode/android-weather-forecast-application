@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">天气demo</string>
+    <string name="action_settings">设置</string>
+    <string name="temp">温度</string>
+    <string name="tianqi">地点|天气</string>
+    <string name="shidu">湿度</string>
+    <string name="action_add">添加/删除城市</string>
+    <string name="title_activity_sousuo">搜索</string>
+    <string name="search_tips">请输入城市名称</string>
+    <string name="wind">风力风向</string>
+    <string name="aqi">空气质量指数</string>
+    <string name="not_find_city">未找到城市</string>
+    <string name="forecast_today">未来天气预报(当天)</string>
+    <string name="forecast_next">未来天气预报(明天)</string>
+    <string name="forecast_next_next">未来天气预报(后天)</string>
+</resources>
